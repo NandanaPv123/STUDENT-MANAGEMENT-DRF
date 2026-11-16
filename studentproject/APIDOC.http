@@ -1,0 +1,21 @@
+#API call for usercreate
+###
+POST http://127.0.0.1:8000/user
+Content-Type: application/json
+
+{
+    "username":"qwe@123",
+    "email":"qwe@gmail.com",
+    "phone":9847655588,
+    "password":"password"
+}
+
+#API call for the token authentication
+###
+POST http://127.0.0.1:8000/token
+Content-Type: application/json
+
+{
+    "usename":"qwe@123",
+    "password":"password"
+}
